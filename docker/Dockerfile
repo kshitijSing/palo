@@ -1,7 +1,7 @@
 # Version: 1.0.0
 # palo 5.1 build docker file
 FROM centos:centos7
-MAINTAINER Zurab Khadikov "kvzura@gmail.com"
+MAINTAINER Kshitij Gangwar "gangwar840@gmail.com"
 
 RUN yum update -y && \
 yum install -y epel-release subversion cmake gcc gcc-c++ make && \
